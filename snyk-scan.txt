@@ -1,0 +1,10 @@
+Organization:      mxdpeep-9lq
+Package manager:   linux
+Project name:      docker-image|gscloudcz/backup-static-site
+Docker image:      gscloudcz/backup-static-site:latest
+Platform:          linux/amd64
+Licenses:          enabled
+
+✔ Tested gscloudcz/backup-static-site:latest for known issues, no vulnerable paths found.
+
+Note that we do not currently have vulnerability data for your image.
