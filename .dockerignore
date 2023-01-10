@@ -1,5 +1,2 @@
-*.Dockerfile
 .git/
 Dockerfile
-LICENSE
-README.md

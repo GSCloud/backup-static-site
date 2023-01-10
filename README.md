@@ -1,4 +1,4 @@
-# Static Docker micro-site
+# Static Docker Micro Site
 
 Forked from [https://github.com/lipanski/docker-static-website].
 
