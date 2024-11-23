@@ -6,13 +6,12 @@ all:
 
 build:
 	docker build --pull -t ${TAG} .
-
 push:
 	docker push ${TAG}
-
 start:
 	docker run -d --rm -p ${PORT}:${PORT} --name ${NAME} ${TAG}
 	@echo "\n🙂 navigate here: http://localhost:${PORT}"
-
 stop:
 	docker kill ${NAME}
+
+everything: stop build push start

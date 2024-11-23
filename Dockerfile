@@ -1,2 +1,2 @@
 FROM lipanski/docker-static-website:latest
-COPY index.html .
+COPY httpd.conf index.html ./
